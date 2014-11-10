@@ -18,6 +18,9 @@ gem 'neat'
 gem 'pg'
 gem 'activerecord-postgresql-adapter'
 
+gem 'rails_stdout_logging'
+gem 'rails_serve_static_assets'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
