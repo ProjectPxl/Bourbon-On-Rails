@@ -1,0 +1,12 @@
+// Place all the styles related to the grids controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.grid-container{
+  @include outer-container();
+}
+
+.col-4{
+  @include span-columns(4);
+  background-color: orange;
+}
