@@ -15,6 +15,8 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'neat'
+gem 'pg'
+gem 'activerecord-postgresql-adapter'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

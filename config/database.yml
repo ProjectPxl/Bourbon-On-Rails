@@ -48,7 +48,9 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: bourbon-rails_production
-  username: bourbon-rails
-  password: <%= ENV['BOURBON-RAILS_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  enconding: unicode
+  database: bourbon-rails
+  pool: 5
+  username: root
+  password: 
